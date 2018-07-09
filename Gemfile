@@ -29,6 +29,8 @@ gem 'haml'
 gem 'simple_form'
 gem 'bootstrap-sass'
 gem 'devise'
+gem 'paperclip'
+gem 'aws-sdk', '>= 2.0.0'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
