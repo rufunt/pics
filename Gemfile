@@ -31,6 +31,7 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'paperclip'
 gem 'aws-sdk', '>= 2.0.0'
+gem 'masonry-rails'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
