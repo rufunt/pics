@@ -53,6 +53,7 @@ Rails.application.configure do
   # config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
-  Paperclip.options[:command_path] = "/usr/local/bin/"
-
+  Paperclip.options[:command_path] = 'd:\Program Files\ImageMagick-7.0.7-Q16'
+  #Paperclip.options[:command_path] = 'd:\Program Files (x86)\GnuWin32\bin'
 end
+
